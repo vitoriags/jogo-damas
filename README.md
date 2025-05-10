@@ -31,34 +31,12 @@ O jogo foi implementado em **C++ com OpenGL (GLUT)**, utilizando modelagem simpl
 
 ---
 
-## Estrutura do Projeto
-
-damas/
-├── include/
-│ ├── animation.hpp
-│ ├── board.hpp
-│ ├── engine.hpp
-│ ├── globals.hpp
-│ ├── input.hpp
-│ ├── pieces.hpp
-│ └── types.hpp
-├── src/
-│ ├── animation.cpp
-│ ├── board.cpp
-│ ├── engine.cpp
-│ ├── globals.cpp
-│ ├── input.cpp
-│ ├── main.cpp
-│ └── pieces.cpp
-├── Makefile # Script de compilação
-└── README.md
-
 ## Como Compilar e Executar
 
-### 🔧 Requisitos
+### Requisitos
 
 - Linux ou WSL com Ubuntu
-- `g++`
+  - `g++`
 - Bibliotecas OpenGL:
   - `freeglut3-dev`
   - `libglu1-mesa-dev`
@@ -70,9 +48,12 @@ damas/
 ```bash
 sudo apt update
 sudo apt install build-essential freeglut3-dev libglu1-mesa-dev
-````
+```
 2. Compile o Projeto
+```bash
 make
-
+```
 2. Execute o jogo:
+```bash
 ./damas
+```
