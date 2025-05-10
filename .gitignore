@@ -1,0 +1,22 @@
+# Binários e executáveis
+damas
+*.o
+*.out
+*.exe
+
+# Diretórios de build
+/build/
+bin/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup de editores
+*~
+*.swp
+*.swo
+
+# VSCode e outros editores
+.vscode/
+.idea/
