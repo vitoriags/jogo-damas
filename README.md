@@ -1,4 +1,4 @@
-# Checkers 3D OpenGL Game
+# Jogo de Damas 3D OpenGL
 
 Este é um jogo de **Damas em 3D** desenvolvido como projeto do **Bacharelado em Ciência da Computação** em **2022**, para a disciplina de **Computação Gráfica**.
 
